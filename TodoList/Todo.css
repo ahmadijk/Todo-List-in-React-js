@@ -1,0 +1,60 @@
+.todo-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input-container input {
+    border: none;
+    border-bottom: 2px solid #3f51b5;
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .todo-input-container button {
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .todo-items-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .todo-items-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-items-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-items-container li button {
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
